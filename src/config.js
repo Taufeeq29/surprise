@@ -1,5 +1,5 @@
 // ✏️ EDIT EVERYTHING HERE. Photos live in public/images, audio in public/music and public/sounds.
-const img = (f) => `/images/${f}`
+const img = (f) => `${import.meta.env.BASE_URL}images/${f}`
 export const C = {
   name: 'Moniii',
   sender: 'Taufeeq',
